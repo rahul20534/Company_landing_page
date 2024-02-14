@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navbar*/
+
+
+#navbar{
+    display: flex;
+    box-sizing: border-box;
+    background-color: rgb(120, 113, 113);
+    box-shadow: 0px 8px 0px red;
+    
+    
+}
+
+#navbar h2{
+    
+    padding-top: 15px;
+    padding-bottom:2px;
+    padding-left: 100px;
+    font-size: 30px;
+    color: white;
+   
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    padding: 16px;
+}
+
+#navbar ul li{
+    padding: 13px;
+    justify-content: space-around;
+    
+    
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+
+}
+
+#navbar ul li a:hover{
+    background-color: rgb(251, 160, 160);
+    border-radius: 5px;
+    
+}
+
+
+/*section two*/
+
+#two{
+    position: absolute;
+    top: 88px;
+    display: inline-block;
+    height: 300px;
+    width: 1263px;
+    background: url(image/img.webp);
+}
+
+#two .two-part{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 70px;
+}
+
+#two h2{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 90px;
+}
+
+.para{
+    color: rgb(13, 255, 255);
+    
+    box-sizing: border-box;
+    padding-left: 22%;
+    padding-right: 22%;
+    font-size: 20px;
+    
+}
+
+
+/*Section three*/
+
+#three{
+    
+    position: absolute;
+    top: 388px;
+    display: flex;
+    height: 70px;
+    width: 1133px;
+    padding-left: 130px;
+    padding-top: 30px;
+    background-color: rgb(120, 113, 113);
+}
+
+#three h2{
+    color: white;
+    font-size: 30px;
+}
+#three h2:hover{
+    color: rgb(11, 11, 11);
+    
+}
+
+.three-part{
+   
+    margin-left: 300px;
+}
+
+
+
+.three-part input,button{
+    font-size: 20px;
+}
+
+.three-part input{
+    padding: 6px;
+  
+}
+
+.three-part button{
+    background-color: red;
+    color: white;
+    padding: 6px;
+    outline-color: transparent;
+}
+
+.three-part button:hover{
+    background-color: rgb(252, 228, 10);
+    color: rgb(254, 254, 254);
+    
+}
+
+/*section 4*/
+
+#four{
+    position: absolute;
+    top: 488px;
+    height: 380px;
+    width: 1260px;
+    
+    display: flex;
+}
+
+#html{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+  
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+#html img{
+   
+    padding: 20px;
+}
+
+#css{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+   
+    margin-top: 30px;
+    margin-left: 475px;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+
+
+#css img{
+    height: 170px;
+    width: 170px;
+    padding-left: 58px;
+}
+
+#system{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    
+    margin-top: 30px;
+    margin-left: 900px;
+    text-align: center;
+    justify-content: center;
+}
+
+#system img{
+    height: 170px;
+    width: 170px;
+    padding-left: 58px;
+}
+
+#foot{
+    position:absolute;
+    display: flex;
+    height: 50px;
+    width: 1260px;
+    top: 900px;
+    border: 2px solid red;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    background-color: rgb(249, 77, 77);
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
